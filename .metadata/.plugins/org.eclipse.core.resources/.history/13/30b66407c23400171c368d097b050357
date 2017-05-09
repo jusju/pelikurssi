@@ -1,0 +1,28 @@
+package kayttoliittyma;
+
+import java.awt.BorderLayout;
+import java.awt.Container;
+import java.awt.FlowLayout;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class BorderLayoutDemo extends JFrame {
+	private JPanel paPisteet = new JPanel(new FlowLayout());
+	private JLabel lbPisteet = new JLabel("Pisteet:");
+	
+	public BorderLayoutDemo() {
+		setVisible(true);
+		setSize(500, 500);
+		asetteleKomponentit();
+	}
+	public void asetteleKomponentit() {
+		Container sisalto = this.getContentPane();
+		sisalto.setLayout(new BorderLayout());
+		paPisteet.add(lbPisteet);
+		sisalto.add(paPisteet, BorderLayout.NORTH);
+	}
+	public static void main(String[] args) {
+		new BorderLayoutDemo();
+	}
+}

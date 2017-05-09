@@ -1,0 +1,17 @@
+package kayttoliittyma;
+
+import javax.swing.JFrame;
+
+public class FrIkkuna extends JFrame{
+	
+	// KONSTRUKTORI AJETAAN AINA KUN LUOKASTA LUODAAN OLIO
+	public FrIkkuna() {
+		// IKKUNAN OTSIKKO, JOKA TULEE NÄKYVILLE IKKUNAN OTSIKKOON
+		setTitle("TicTacToe");
+		// IKKUNAN KOKO PIKSELEISSÄ, ENSIN OIKEALLE JA SITTEN ALAS
+		setSize(300, 300);
+		// IKKUNAN SIJAINTI MONITORILLA, VASEMMASTA YLÄKULMASTA LUKIEN
+		// ELI TAAS ENSIN OIKEALLE JA SITTEN ALAS
+		setLocation(800, 800);
+	}
+}

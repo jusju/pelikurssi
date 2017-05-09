@@ -1,0 +1,20 @@
+package kayttoliittyma;
+
+import javax.swing.JFrame;
+
+public class BorderLayoutDemo extends JFrame {
+
+	public BorderLayoutDemo() {
+		
+	}
+	
+	public void asetteleKomponentit() {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+	
+}

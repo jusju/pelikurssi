@@ -1,0 +1,11 @@
+package kayttoliittyma;
+
+import javax.swing.JFrame;
+
+public class FrIkkuna extends JFrame{
+	
+	// KONSTRUKTORI AJETAAN AINA KUN LUOKASTA LUODAAN OLIO
+	public FrIkkuna() {
+		
+	}
+}

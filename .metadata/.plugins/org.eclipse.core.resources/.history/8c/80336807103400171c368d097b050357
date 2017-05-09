@@ -1,0 +1,38 @@
+package kayttoliittyma;
+
+import java.awt.Container;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+// PERII LUOKASTA JFRAME ELI SAA JFRAMEN METODIT KÄYTTÖÖNSÄ
+public class FrIkkuna extends JFrame{
+	// ESITELLÄÄN EKA BUTTONI JOKA TULEE VASEMPAAN YLÄKULMAAN
+	private JButton btVasenYlakulma = new JButton("");
+	
+	// KONSTRUKTORI AJETAAN AINA KUN LUOKASTA LUODAAN OLIO
+	public FrIkkuna() {
+		// IKKUNAN OTSIKKO, JOKA TULEE NÄKYVILLE IKKUNAN OTSIKKOON
+		setTitle("TicTacToe");
+		// IKKUNAN KOKO PIKSELEISSÄ, ENSIN OIKEALLE JA SITTEN ALAS
+		setSize(300, 300);
+		// IKKUNAN SIJAINTI MONITORILLA, VASEMMASTA YLÄKULMASTA LUKIEN
+		// ELI TAAS ENSIN OIKEALLE JA SITTEN ALAS
+		setLocation(800, 800);
+		// LUODAAN IKONI OLIO JA ANNETAAN TIEDOKSI IKONI-TIEDOSTON SIJAINTI
+		ImageIcon img = new ImageIcon("images/icon.png");
+		// ASETETAAN IKKUNALLE IKONI
+		setIconImage(img.getImage());
+		// IKKUNAN SULKEMINEN LOPETTAA OHJELMAN
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+	// METODI, JOKA ASETTELEE KOMPONENTIT NÄYTÖLLE
+	public void asetteleKomponentit() {
+		// LUODAAN CONTAINER, JOKA TARVITAAN, ETTÄ IKKUNAAN VOI PIIRTÄÄ BUTTONEITA TAI MUITA
+		// KÄYTTÖLIITTYMÄKOMPONENTTEJA
+		Container sisalto = this.getContentPane();
+		
+		
+	}
+	
+}

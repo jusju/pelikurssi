@@ -1,0 +1,10 @@
+package kayttoliittyma;
+
+public class BorderLayoutDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

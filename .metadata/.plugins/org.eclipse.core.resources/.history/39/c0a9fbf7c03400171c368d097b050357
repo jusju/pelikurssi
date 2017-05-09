@@ -1,0 +1,22 @@
+package kayttoliittyma;
+
+import java.awt.Container;
+
+import javax.swing.JFrame;
+
+public class BorderLayoutDemo extends JFrame {
+
+	public BorderLayoutDemo() {
+		
+	}
+	
+	public void asetteleKomponentit() {
+		Container sisalto = this.getContentPane();
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+	
+}

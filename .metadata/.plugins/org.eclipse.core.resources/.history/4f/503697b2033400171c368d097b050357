@@ -1,0 +1,7 @@
+package kayttoliittyma;
+
+import javax.swing.JFrame;
+
+public class FrIkkuna extends JFrame{
+
+}
